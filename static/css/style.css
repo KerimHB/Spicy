@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(255, 246, 241);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5b90881c89c1724c42a95902/1601792066145-PR69H5616TOMZMEJHTZG/Peppers.gif');
+}
+
+footer {
+    margin-top: auto;
+}
+
+.color {
+    background-color: rgb(156, 31, 0);
+    border-radius: 20px;
+    color: white;
+}
+
+.color-i {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+
+}
+
+
+.color-F {
+    background-color: rgb(156, 31, 0);
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(167, 59, 59);
+    color: white;
+}
+
+html {
+    height: 100%;
+}
+
+.c {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.card {
+    border-style: ridge;
+    border-color: rgb(165, 93, 11);
+}
+
+.btn-wha {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.btn-fb {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 95px;
+    right: 30px;
+    background: #447efc;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.btn-ins {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 160px;
+    right: 30px;
+    background: hsl(303, 100%, 42%);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.img-css {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.carousel{
+    border-radius: 20px;
+}
