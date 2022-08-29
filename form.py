@@ -1,6 +1,6 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField, TextAreaField
-from wtforms.validators import DataRequired, Length
+from wtforms import StringField, SubmitField, TextAreaField, EmailField
+from wtforms.validators import DataRequired, Length, Email
 
 
 class Datos(FlaskForm):
@@ -17,6 +17,11 @@ class Datos(FlaskForm):
     direccion = StringField("Direccion", validators=[
         DataRequired(),
         Length(max=150, min=15)
+    ])
+
+    email = EmailField("email", validators=[
+        DataRequired(),
+        Length(max=30, min=10)
     ])
 
     mensaje = TextAreaField("Mensaje", validators=[

@@ -30,7 +30,7 @@ def bebida():
 @app.route('/form', methods=["POST", "GET"])
 def Formulario():
     if request.method == "POST":
-        return f"nombres= {request.form['nombre']} | apellidos= {request.form['apellido']} | direccion= {request.form['direccion']} |telefono= {request.form['telefono']} | mensaje= {request.form['msg']}"
+        return f"nombres= {request.form['nombre']} | apellidos= {request.form['apellido']} | direccion= {request.form['direccion']} |telefono= {request.form['telefono']} | email= {request.form['email']} | mensaje= {request.form['msg']}"
     return render_template('formulario.html')
 
 
